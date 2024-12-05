@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+body {
+  background-image: url(love_island_entrance.jpg);
+  background-size: cover;  
+}
+
+@font-face {
+    font-family: "homevideo";
+    src: url(homevideo.ttf);
+}
+
+.entry-container {
+    width: 100vw;
+    height: 100vh;
+    align-content: center;
+    
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    width: 50%;
+    height: 50%;
+    margin: auto;
+
+    border: 5px solid hotpink;
+    background-color: cyan;
+    justify-content: center;
+
+}
+
+.body-text {
+    font-family: "homevideo";
+    color: hotpink;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}

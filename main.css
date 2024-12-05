@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: hotpink;
+}
+
+body {
+  background-image: url(Love-Island-Background.jpg);
+  background-size: cover;  
+}
+
+@font-face {
+    font-family: "homevideo";
+    src: url(homevideo.ttf);
+}
+
+.body-text {
+    font-family: "homevideo";
+    color: hotpink;
+    font-size: 110px;
+    -webkit-text-stroke: 2px cyan;
+    
+}
+
+.entry-page {
+    display: flex;
+    margin: 1%;
+    padding: 1%;
+}

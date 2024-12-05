@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+@font-face {
+    font-family: "homevideo";
+    src: url(homevideo.ttf);
+}
+
+body {
+    background-image: url(firepit.jpg);
+    background-size: cover;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.text-box {
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    padding: 20px;
+    font-size: 20px;
+    font-family: "homevideo";
+    background-color: cyan;
+    color: hotpink;
+    border: 1px solid hotpink;
+    
+}
+
+.aaron {
+    display: flex;
+    position: absolute;
+    margin-left: 12%;
+    margin-top: 22%;
+}
+
+.andrea {
+    display: flex;
+    position: absolute;
+    margin-left: 21%;
+    margin-top: 20%;
+}
+
+.jana {
+    display: flex;
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 18%;
+}
+
+.kaylor {
+    display: flex;
+    position: absolute;
+    margin-left: 39%;
+    margin-top: 18%;
+}
+
+.kenny {
+    display: flex;
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 18%;
+}
+
+.kordell {
+    display: flex;
+    position: absolute;
+    margin-left: 57%;
+    margin-top: 18%;
+}
+
+.leah {
+    display: flex;
+    position: absolute;
+    margin-left: 66%;
+    margin-top: 19%;
+}
+
+.rob {
+    display: flex;
+    position: absolute;
+    margin-left: 73%;
+    margin-top: 21%;
+}
+
+.serena {
+    display: flex;
+    position: absolute;
+    margin-left: 80%;
+    margin-top: 22%;
+}

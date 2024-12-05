@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+@font-face {
+    font-family: "homevideo";
+    src: url(homevideo.ttf);
+}
+
+body {
+   background-image: url(villa\ copy.jpg); 
+   background-size: cover;
+   font-family: "homevideo";
+   color: hotpink;
+}
+
+.next-page {
+    display: flex;
+    width: fit-content;
+    font-size: 20px;
+    font-family: "homevideo";
+    background-color: cyan;
+    color: hotpink;
+    border: 1px solid hotpink;
+    padding: 20px;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+
+
+}
+
+.main-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.islander-1 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-left: 8%;
+    margin-top: 35%;
+}
+
+.islander-2 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 12%;
+    margin-left: 3%;
+}
+
+.islander-3 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 45%;
+    margin-left: 35%;
+}
+
+.islander-4 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 33%;
+    margin-left: 24%;
+}
+
+.islander-5 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 21%;
+    margin-left: 75%;
+}
+
+.islander-6 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 33%;
+    margin-left: 80%;
+}
+
+.islander-7 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 35%;
+    margin-left: 50%;
+}
+
+.islander-8 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 12%;
+    margin-left: 20%;
+}
+
+.islander-9 {
+    display: flex;
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-top: 45%;
+    margin-left: 68%;
+}
+ 
+        /* Tooltip container */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+        
+        /* Tooltip text */
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: white;
+            font-family: "homevideo";
+            text-align: center;
+            padding: 5px 0;
+            border-radius: 6px;
+        
+            /* Position the tooltip text */
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -60px;
+        
+            /* Fade in tooltip */
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        /* Tooltip arrow */
+        .tooltip .tooltiptext::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: white transparent transparent transparent ;
+        }
+        
+        /* Show the tooltip text when you mouse over the tooltip container */
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }

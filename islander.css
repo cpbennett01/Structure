@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: hotpink;
+}
+
+body {
+  background-image: url(beach.png);
+  background-size: cover;  
+}
+
+@font-face {
+    font-family: "homevideo";
+    src: url(homevideo.ttf);
+}
+
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+    .photo {
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .text {
+        display: flex;
+        flex-wrap: wrap;
+        width: 50%;
+        height: 85%;
+        justify-content: center;
+        
+        font-family: "homevideo";
+        font-size: 40px;
+        padding: 10px;
+        color: hotpink;
+        text-align: center;
+
+        background-color: cyan;
+        border: 5px solid hotpink;
+        margin: 20px;
+    }
